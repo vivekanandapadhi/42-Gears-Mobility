@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./assets/42gearsicon.png">
+    <title>42Gears</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <header class="navbar">
+        <div class="logo">
+            <img src="./assets/42Gears Logo.png" alt="Logo">
+        </div>
+        <div class="right-navbar">
+            <div class="test-user">
+                <div class="profile"></div>
+                <div class="user">
+                    <h1>Test User</h1>
+                    <img src="./assets//Arrow_Down_White.svg" alt="arrow down">
+                </div>
+            </div>
+            <div class="logout">
+                <h1>Logout</h1>
+                <img src="./assets//Logout_Arrow.svg" alt="Logout">
+            </div>
+        </div>
+    </header>
+
+    <!-- Drawer-->
+    <aside class="drawer">
+        <ul>
+            <li>
+                <img src="./assets//Menu_Icon1.svg" alt="menu_icon 1">
+                <a href="Menu1.html">Menu 1</a>
+            </li>
+            <li>
+                <img src="./assets/Menu_Icon2.svg" alt="menu_icon 2">
+                <a href="Menu2.html">Menu 2</a>
+            </li>
+            <li>
+                <img src="./assets/Menu_Icon3.svg" alt="menu_icon 3">
+                <a href="Menu3.html">Menu 3</a>
+            </li>
+        </ul>
+    </aside>
+
+    <!-- Main Content Area -->
+    <main class="content">
+        <h2>TestProject</h2>
+        <div class="content-home">
+            <p>Google EmailId's for FRP</p>
+            <div class="input-container">
+                <input type="text" id="inputField" placeholder="Enter value" />
+                <button class="plus-icon" onclick="addItem()">+</button>
+            </div>
+        </div>
+        
+    
+        <div id="itemList" class="item-list"></div>
+    </main>
+
+ 
+    
+
+    <script src="./js/menu3.js"></script>
+</body>
+</html>

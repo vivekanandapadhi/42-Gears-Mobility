@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./assets/42gearsicon.png">
+    <title>42Gears</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <header class="navbar">
+        <div class="logo">
+            <img src="./assets/42Gears Logo.png" alt="Logo">
+        </div>
+        <div class="right-navbar">
+            <div class="test-user">
+                <div class="profile"></div>
+                <div class="user">
+                    <h1>Test User</h1>
+                    <img src="./assets//Arrow_Down_White.svg" alt="arrow down">
+                </div>
+            </div>
+            <div class="logout">
+                <h1>Logout</h1>
+                <img src="./assets//Logout_Arrow.svg" alt="Logout">
+            </div>
+        </div>
+    </header>
+
+    <!-- Drawer / Sidebar -->
+    <aside class="drawer">
+        <ul>
+            <li>
+                <img src="./assets//Menu_Icon1.svg" alt="menu_icon 1">
+                <a href="Menu1.html">Menu 1</a>
+            </li>
+            <li>
+                <img src="./assets/Menu_Icon2.svg" alt="menu_icon 2">
+                <a href="Menu2.html">Menu 2</a>
+            </li>
+            <li>
+                <img src="./assets/Menu_Icon3.svg" alt="menu_icon 3">
+                <a href="Menu3.html">Menu 3</a>
+            </li>
+        </ul>
+    </aside>
+
+    <!-- Main Content Area -->
+    <main class="content">
+        <h2>TestProject</h2>
+
+        <!-- Card Tiles Section -->
+        <div class="card-container">
+            <div class="card">
+                <div class="card-header">
+                    <div class="user-logo">
+                        <img src="./assets/profile.png" width="35px" height="35px" alt="">
+                    </div>
+                    <div class="user-name">
+                        <p>User : sayedameen_pro</p>
+                    </div>
+                    <div class="card-dropdown">
+                        <span class="ellipsis" onclick="toggleMenu(0)">...</span>
+                        <ul class="dropdown" id="dropdown-0">
+                            <li>
+                                <img src="./assets/share.png" alt="" width="15px" height="15px">
+                                <span>Share Project</span>
+                            </li>
+                            <li>
+                                <img src="./assets/copy.png" alt="" width="15px" height="15px">
+                                <span>Copy Project</span>
+                            </li>
+                            <li>
+                                <img src="./assets/refresh.png" alt="" width="15px" height="15px">
+                                <span>Refresh</span>
+                            </li>
+                            <li>
+                                <img src="./assets/logs.png" alt="" width="15px" height="15px">
+                                <span>Logs</span>
+                            </li>
+                            <li>
+                                <img src="./assets/edit.png" alt="" width="15px" height="15px">
+                                <span>Edit</span>
+                            </li>
+                            <li>
+                                <img src="./assets/delete.png" alt="" width="15px" height="15px">
+                                <span>Delete</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <div class="card-body-left">
+                        <div class="running">
+                            <div></div>
+                            <p>Running</p>
+                        </div>
+                        <div class="time">
+                            <div class="image">
+                                <img src="./assets/time.jpg" width="10px" height="10px" alt="">
+                            </div>
+                            <p>3.1 hrs</p>
+                        </div>
+                    </div>
+                    <div class="card-body-right">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                        <div>
+                            <p style="font-weight: 600;cursor: pointer;">Details</p>
+                            <img src="./assets/angle-right-solid.svg" alt="" width="15px" height="15px">
+                        </div>
+                    </div>
+                </div> 
+                <div class="card-end">
+                    <div class="card-end-left">
+                        <div class="box-1">
+                            <div>
+                                <div><img src="./assets/play.png" width="15px" height="15px" alt=""></div>
+                            </div>
+                        </div>
+                        <div class="box-2">
+                            <div>
+                                <div></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-end-right"></div>
+                </div>   
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <div class="user-logo">
+                        <img src="./assets/profile.png" width="35px" height="35px" alt="">
+                    </div>
+                    <div class="user-name">
+                        <p>User : sayedameen_pro</p>
+                    </div>
+                    <div class="card-dropdown">
+                        <span class="ellipsis" onclick="toggleMenu(1)">...</span>
+                        <ul class="dropdown" id="dropdown-1">
+                            <li>
+                                <img src="./assets/share.png" alt="" width="15px" height="15px">
+                                <span>Share Project</span>
+                            </li>
+                            <li>
+                                <img src="./assets/copy.png" alt="" width="15px" height="15px">
+                                <span>Copy Project</span>
+                            </li>
+                            <li>
+                                <img src="./assets/refresh.png" alt="" width="15px" height="15px">
+                                <span>Refresh</span>
+                            </li>
+                            <li>
+                                <img src="./assets/logs.png" alt="" width="15px" height="15px">
+                                <span>Logs</span>
+                            </li>
+                            <li>
+                                <img src="./assets/edit.png" alt="" width="15px" height="15px">
+                                <span>Edit</span>
+                            </li>
+                            <li>
+                                <img src="./assets/delete.png" alt="" width="15px" height="15px">
+                                <span>Delete</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <div class="card-body-left">
+                        <div class="running">
+                            <div style="width: 5px;height: 5px;background-color: red;border-radius: 5px;box-shadow: 0 0 5px 3px red;"></div>
+                            <p>Not Running</p>
+                        </div>
+                        <div class="time">
+                            <div class="image">
+                                <img src="./assets/time.jpg" width="10px" height="10px" alt="">
+                            </div>
+                            <p>3.1 hrs</p>
+                        </div>
+                    </div>
+                    <div class="card-body-right">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                        <div>
+                            <p style="font-weight: 600;cursor: pointer;">Details</p>
+                            <img src="./assets/angle-right-solid.svg" alt="" width="15px" height="15px">
+                        </div>
+                    </div>
+                </div> 
+                <div class="card-end">
+                    <div class="card-end-left">
+                        <div class="box-1">
+                            <div>
+                                <div><img src="./assets/play.png" width="15px" height="15px" alt=""></div>
+                            </div>
+                        </div>
+                        <div class="box-2">
+                            <div>
+                                <div></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-end-right"></div>
+                </div>   
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <div class="user-logo">
+                        <img src="./assets/profile.png" width="35px" height="35px" alt="">
+                    </div>
+                    <div class="user-name">
+                        <p>User : sayedameen_pro</p>
+                    </div>
+                    <div class="card-dropdown">
+                        <span class="ellipsis" onclick="toggleMenu(2)">...</span>
+                        <ul class="dropdown" id="dropdown-2">
+                            <li>
+                                <img src="./assets/share.png" alt="" width="15px" height="15px">
+                                <span>Share Project</span>
+                            </li>
+                            <li>
+                                <img src="./assets/copy.png" alt="" width="15px" height="15px">
+                                <span>Copy Project</span>
+                            </li>
+                            <li>
+                                <img src="./assets/refresh.png" alt="" width="15px" height="15px">
+                                <span>Refresh</span>
+                            </li>
+                            <li>
+                                <img src="./assets/logs.png" alt="" width="15px" height="15px">
+                                <span>Logs</span>
+                            </li>
+                            <li>
+                                <img src="./assets/edit.png" alt="" width="15px" height="15px">
+                                <span>Edit</span>
+                            </li>
+                            <li>
+                                <img src="./assets/delete.png" alt="" width="15px" height="15px">
+                                <span>Delete</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                
+
+                <div class="card-body">
+                    <div class="card-body-left">
+                        <div class="running">
+                            <div></div>
+                            <p>Running</p>
+                        </div>
+                        <div class="time">
+                            <div class="image">
+                                <img src="./assets/time.jpg" width="10px" height="10px" alt="">
+                            </div>
+                            <p>3.1 hrs</p>
+                        </div>
+                    </div>
+                    <div class="card-body-right">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                        <div>
+                            <p style="font-weight: 600;cursor: pointer;">Details</p>
+                            <img src="./assets/angle-right-solid.svg" alt="" width="15px" height="15px">
+                        </div>
+                    </div>
+                </div> 
+
+                <div class="progress">
+                    <p>Packages : Downloading packages...</p>
+                    <div>
+                        <span>60%</span>
+                        <div class="bar">
+                            <div style="width: 60%;height: 100%;background-color: green;border-radius: 5px;"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card-end">
+                    <div class="card-end-left">
+                        <div class="box-1">
+                            <div>
+                                <div><img src="./assets/play.png" width="15px" height="15px" alt=""></div>
+                            </div>
+                        </div>
+                        <div class="box-2">
+                            <div>
+                                <div></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-end-right"></div>
+                </div>   
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <div class="user-logo">
+                        <img src="./assets/profile.png" width="35px" height="35px" alt="">
+                    </div>
+                    <div class="user-name">
+                        <p>User : sayedameen_pro</p>
+                    </div>
+                    <div class="card-dropdown">
+                        <span class="ellipsis" onclick="toggleMenu(3)">...</span>
+                        <ul class="dropdown" id="dropdown-3">
+                            <li>
+                                <img src="./assets/share.png" alt="" width="15px" height="15px">
+                                <span>Share Project</span>
+                            </li>
+                            <li>
+                                <img src="./assets/copy.png" alt="" width="15px" height="15px">
+                                <span>Copy Project</span>
+                            </li>
+                            <li>
+                                <img src="./assets/refresh.png" alt="" width="15px" height="15px">
+                                <span>Refresh</span>
+                            </li>
+                            <li>
+                                <img src="./assets/logs.png" alt="" width="15px" height="15px">
+                                <span>Logs</span>
+                            </li>
+                            <li>
+                                <img src="./assets/edit.png" alt="" width="15px" height="15px">
+                                <span>Edit</span>
+                            </li>
+                            <li>
+                                <img src="./assets/delete.png" alt="" width="15px" height="15px">
+                                <span>Delete</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <div class="card-body-left">
+                        <div class="running">
+                            <div style="width: 5px;height: 5px;background-color: red;border-radius: 5px;box-shadow: 0 0 5px 3px red;"></div>
+                            <p>Not Running</p>
+                        </div>
+                        <div class="time">
+                            <div class="image">
+                                <img src="./assets/time.jpg" width="10px" height="10px" alt="">
+                            </div>
+                            <p>3.1 hrs</p>
+                        </div>
+                    </div>
+                    <div class="card-body-right">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                        <div>
+                            <p style="font-weight: 600;cursor: pointer;">Details</p>
+                            <img src="./assets/angle-right-solid.svg" alt="" width="15px" height="15px">
+                        </div>
+                    </div>
+                </div> 
+                
+                <div class="progress">
+                    <p>Packages : Error packages demo...</p>
+                    <div>
+                        <span>30%</span>
+                        <div class="bar">
+                            <div class="result"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card-end">
+                    <div class="card-end-left">
+                        <div class="box-1">
+                            <div>
+                                <div><img src="./assets/play.png" width="15px" height="15px" alt=""></div>
+                            </div>
+                        </div>
+                        <div class="box-2">
+                            <div>
+                                <div></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-end-right"></div>
+                </div>   
+            </div>
+            
+        </div>
+    </main>
+
+   
+    
+
+
+    
+    <script src="./js/menu2.js"></script>
+</body>
+</html>
